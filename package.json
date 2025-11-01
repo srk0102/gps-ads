@@ -1,0 +1,53 @@
+{
+  "name": "gps-ads",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.20.0",
+    "@react-native-community/geolocation": "^3.0.6",
+    "@react-native-community/netinfo": "^11.3.2",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/native-stack": "^6.9.17",
+    "axios": "^1.6.0",
+    "date-fns": "^2.30.0",
+    "h3-js": "^4.1.0",
+    "mmkv-storage": "^0.6.10",
+    "react": "18.2.0",
+    "react-native": "0.73.8",
+    "react-native-config": "^1.5.0",
+    "react-native-device-info": "^10.13.0",
+    "react-native-fs": "^2.20.0",
+    "react-native-gesture-handler": "^2.14.0",
+    "react-native-mmkv": "^2.11.0",
+    "react-native-permissions": "^3.10.1",
+    "react-native-reanimated": "^3.6.2",
+    "react-native-safe-area-context": "^4.9.0",
+    "react-native-screens": "^3.29.0",
+    "react-native-sqlite-storage": "^6.1.13",
+    "react-native-vision-camera": "^3.7.0",
+    "uuid": "^9.0.1",
+    "zustand": "^4.4.0"
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^3.2.0",
+    "@tsconfig/react-native": "^3.0.0",
+    "@types/react": "18.2.24",
+    "@types/react-native": "0.73.0",
+    "@types/react-test-renderer": "18.0.0",
+    "@types/uuid": "^9.0.3",
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "typescript": "5.2.2"
+  }
+}

@@ -1,0 +1,10 @@
+node_modules/
+android/
+ios/
+*.log
+.env
+.expo/
+.DS_Store
+coverage/
+*.iml
+.idea/
